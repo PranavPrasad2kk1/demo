@@ -1,0 +1,38 @@
+.todo
+{
+    background-image: url('https://images6.alphacoders.com/947/947920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1280px;
+}
+
+.lists
+{
+    margin-top: 3%;
+    color: blue;
+    text-align: center;
+    font-family: Copperplate Gothic;
+    font-size: x-large;
+}
+.box 
+{
+    
+   overflow: scroll;
+    width: 60%;
+    height: 300px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+input[type=checkbox]:checked + p.strikethrough 
+{
+    text-decoration: line-through;
+    color: red;
+}
+
+.inputAdd
+{
+    border-radius: 50px;
+}
